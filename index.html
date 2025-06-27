@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChipTech Global - Premium Semiconductors & Communication Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Scroll Progress -->
+    <div class="scroll-progress">
+        <div class="scroll-progress-bar" id="scroll-progress-bar"></div>
+    </div>
+
+    <!-- Sci-fi Effects -->
+    <div class="particles" id="particles"></div>
+    <div class="data-stream">
+        <div class="stream-line"></div>
+        <div class="stream-line"></div>
+        <div class="stream-line"></div>
+        <div class="stream-line"></div>
+        <div class="stream-line"></div>
+        <div class="stream-line"></div>
+    </div>
+
+    <!-- Cookie Notice -->
+    <div id="cookie-notice" class="cookie-notice">
+        <div class="cookie-content">
+            <div class="cookie-text">
+                <h3>We value your privacy</h3>
+                <p>We use cookies to enhance your browsing experience and analyze our traffic. By clicking "Accept All", you consent to our use of cookies.</p>
+            </div>
+            <div class="cookie-buttons">
+                <button id="accept-cookies" class="btn-primary">Accept All</button>
+                <button id="decline-cookies" class="btn-secondary">Manage Preferences</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>ChipTech</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item dropdown">
+                    <a href="products.html" class="nav-link">Products</a>
+                    <div class="dropdown-content">
+                        <div class="dropdown-section">
+                            <h4>Processors</h4>
+                            <a href="#cpus">Server CPUs</a>
+                            <a href="#cpus">Embedded CPUs</a>
+                            <a href="#gpus">Data Center GPUs</a>
+                            <a href="#gpus">Embedded GPUs</a>
+                        </div>
+                        <div class="dropdown-section">
+                            <h4>Memory & Storage</h4>
+                            <a href="#memory">DRAM</a>
+                            <a href="#memory">Flash Memory</a>
+                            <a href="#ssds">Enterprise SSDs</a>
+                            <a href="#ssds">Industrial SSDs</a>
+                        </div>
+                        <div class="dropdown-section">
+                            <h4>Networking</h4>
+                            <a href="#networking">Switches</a>
+                            <a href="#networking">Routers</a>
+                            <a href="#communication">Wireless Modules</a>
+                            <a href="#communication">Base Station Equipment</a>
+                        </div>
+                        <div class="dropdown-section">
+                            <h4>IC Chips</h4>
+                            <a href="#ic-chips">AMD</a>
+                            <a href="#ic-chips">STMicroelectronics</a>
+                            <a href="#ic-chips">Texas Instruments</a>
+                            <a href="#ic-chips">NXP</a>
+                            <a href="#ic-chips">Infineon</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="#solutions" class="nav-link">Solutions</a></li>
+                <li class="nav-item"><a href="#industries" class="nav-link">Industries</a></li>
+                <li class="nav-item"><a href="#support" class="nav-link">Support</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Chapter Navigator -->
+    <div class="chapter-nav">
+        <div class="chapter-item active" data-chapter="1">
+            <span class="chapter-number">01</span>
+            <span class="chapter-title">Welcome</span>
+        </div>
+        <div class="chapter-item" data-chapter="2">
+            <span class="chapter-number">02</span>
+            <span class="chapter-title">Products</span>
+        </div>
+        <div class="chapter-item" data-chapter="3">
+            <span class="chapter-number">03</span>
+            <span class="chapter-title">Solutions</span>
+        </div>
+        <div class="chapter-item" data-chapter="4">
+            <span class="chapter-number">04</span>
+            <span class="chapter-title">About</span>
+        </div>
+        <div class="chapter-item" data-chapter="5">
+            <span class="chapter-number">05</span>
+            <span class="chapter-title">Contact</span>
+        </div>
+    </div>
+
+    <!-- Chapter 01: Welcome -->
+    <section class="chapter-section hero" data-chapter="1">
+        <div class="chapter-header">
+            <span class="chapter-label">CHAPTER 01: Welcome</span>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title" data-text="Next-Generation Semiconductors">
+                    The <em>Future</em> of<br/>
+                    Semiconductor <em>Innovation</em>
+                </h1>
+                <p class="hero-subtitle">ChipTech Global is the first B2B platform built from the ground up to connect businesses with cutting-edge CPUs, GPUs, memory solutions, and communication technologies at scale.</p>
+                <div class="hero-buttons">
+                    <a href="products.html" class="btn-primary">Explore Products</a>
+                    <button class="btn-secondary">Watch Demo</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="chip-animation">
+                    <div class="chip-core"></div>
+                    <div class="chip-layer layer-1"></div>
+                    <div class="chip-layer layer-2"></div>
+                    <div class="chip-layer layer-3"></div>
+                    <div class="chip-layer layer-4"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chapter 02: Products -->
+    <section class="chapter-section product-categories" data-chapter="2">
+        <div class="chapter-header">
+            <span class="chapter-label">CHAPTER 02: Products</span>
+        </div>
+        <div class="container">
+            <h2 class="section-title">Discover the <em>Next Generation</em><br/>of Semiconductor Solutions</h2>
+            <div class="category-grid">
+                <div class="category-card" data-category="cpus">
+                    <div class="card-icon">
+                        <div class="cpu-icon"></div>
+                    </div>
+                    <h3>CPUs</h3>
+                    <p>High-performance server and embedded processors</p>
+                    <span class="learn-more">Learn More →</span>
+                </div>
+                <div class="category-card" data-category="gpus">
+                    <div class="card-icon">
+                        <div class="gpu-icon"></div>
+                    </div>
+                    <h3>GPUs</h3>
+                    <p>Advanced graphics and AI acceleration solutions</p>
+                    <span class="learn-more">Learn More →</span>
+                </div>
+                <div class="category-card" data-category="memory">
+                    <div class="card-icon">
+                        <div class="memory-icon"></div>
+                    </div>
+                    <h3>Memory</h3>
+                    <p>DRAM and Flash memory for diverse applications</p>
+                    <span class="learn-more">Learn More →</span>
+                </div>
+                <div class="category-card" data-category="ssds">
+                    <div class="card-icon">
+                        <div class="ssd-icon"></div>
+                    </div>
+                    <h3>SSDs</h3>
+                    <p>Enterprise and industrial solid-state drives</p>
+                    <span class="learn-more">Learn More →</span>
+                </div>
+                <div class="category-card" data-category="networking">
+                    <div class="card-icon">
+                        <div class="network-icon"></div>
+                    </div>
+                    <h3>Networking</h3>
+                    <p>Switches and routers for modern connectivity</p>
+                    <span class="learn-more">Learn More →</span>
+                </div>
+                <div class="category-card" data-category="communication">
+                    <div class="card-icon">
+                        <div class="comm-icon"></div>
+                    </div>
+                    <h3>Communication</h3>
+                    <p>Wireless modules and base station equipment</p>
+                    <span class="learn-more">Learn More →</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chapter 03: Solutions -->
+    <section class="chapter-section solutions" id="solutions" data-chapter="3">
+        <div class="chapter-header">
+            <span class="chapter-label">CHAPTER 03: Solutions</span>
+        </div>
+        <div class="container">
+            <h2 class="section-title">Go <em>Beyond</em> Traditional<br/>Hardware with ChipTech</h2>
+            <div class="solutions-grid">
+                <div class="solution-item">
+                    <h3>Data Center Optimization</h3>
+                    <p>Complete hardware solutions for modern data centers, featuring our latest server CPUs and high-speed memory modules.</p>
+                </div>
+                <div class="solution-item">
+                    <h3>Edge Computing</h3>
+                    <p>Compact, efficient processors and communication modules designed for edge computing applications.</p>
+                </div>
+                <div class="solution-item">
+                    <h3>Industrial IoT</h3>
+                    <p>Ruggedized semiconductors and networking solutions built for industrial environments.</p>
+                </div>
+                <div class="solution-item">
+                    <h3>5G Infrastructure</h3>
+                    <p>Advanced communication chips and base station equipment for next-generation wireless networks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chapter 04: About -->
+    <section class="chapter-section about" id="about" data-chapter="4">
+        <div class="chapter-header">
+            <span class="chapter-label">CHAPTER 04: About</span>
+        </div>
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2><em>About</em> ChipTech Global</h2>
+                    <p>With over two decades of experience in the semiconductor industry, ChipTech Global has established itself as a trusted partner for businesses worldwide. We specialize in sourcing and distributing premium semiconductors from leading manufacturers including AMD, STMicroelectronics, Texas Instruments, NXP, and Infineon.</p>
+                    <p>Our commitment to quality, innovation, and customer satisfaction drives everything we do. From data centers to industrial applications, our products power the technologies that shape our world.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Global Clients</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50M+</span>
+                            <span class="stat-label">Components Shipped</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">Technical Support</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="tech-showcase">
+                        <div class="tech-ring ring-1"></div>
+                        <div class="tech-ring ring-2"></div>
+                        <div class="tech-ring ring-3"></div>
+                        <div class="tech-center"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chapter 05: Contact -->
+    <section class="chapter-section contact" id="contact" data-chapter="5">
+        <div class="chapter-header">
+            <span class="chapter-label">CHAPTER 05: Contact</span>
+        </div>
+        <div class="container">
+            <h2 class="section-title">Ready to <em>Transform</em><br/>Your Business?</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Ready to discuss your project?</h3>
+                    <p>Our technical experts are here to help you find the perfect semiconductor solutions for your needs.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <strong>Email:</strong> sales@chiptech-global.com
+                        </div>
+                        <div class="contact-item">
+                            <strong>Phone:</strong> +1 (555) 123-4567
+                        </div>
+                        <div class="contact-item">
+                            <strong>Address:</strong> 123 Tech Valley Drive, Silicon City, CA 94000
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="text" placeholder="Company Name">
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#solutions">Solutions</a></li>
+                        <li><a href="#industries">Industries</a></li>
+                        <li><a href="#support">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Customer Support</h4>
+                    <ul>
+                        <li><a href="#technical-support">Technical Support</a></li>
+                        <li><a href="#documentation">Documentation</a></li>
+                        <li><a href="#downloads">Downloads</a></li>
+                        <li><a href="#warranty">Warranty</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#investors">Investors</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#locations">Locations</a></li>
+                        <li><a href="#partners">Partners</a></li>
+                        <li><a href="#distributors">Distributors</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-links">
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Use</a>
+                    <a href="#cookies">Cookie Policy</a>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">YouTube</a>
+                </div>
+                <p>&copy; 2024 ChipTech Global. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
